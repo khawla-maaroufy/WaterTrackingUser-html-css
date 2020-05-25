@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html> <!--aprés recevoir la notification l'utilisateur clique sur la notif, et ce click y rammène à page réclamations-->
+    <head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/water.css">
+    </head>
+    <body id="reclamation">
+        <div class="position border">
+            <header>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="Dashboard.html">Dashboard</a></li>
+                        <li><a href="boxes.html">Boxes</a></li>
+                        <li><a href="reclamation.html">Claim</a></li>
+                        <li><a href="#">Notif</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="claim">
+                <div class="textNotif">Texte de la notification qu'il a cliqué <br> vous avez dépasser le taux de consommation usuel, Vérifier s'il y a un problème au Box1 </div>
+                <div>
+                    <label class="checkMargin check">Checked
+                        <input class="checkmark"  type="checkbox">
+                    </label>
+                </div>
+                <p>Problem: </p>
+                <label class="check">Fixed
+                    <input class="checkmark"  type="radio" name="radio">
+                </label>
+                <label class="check">Not fixed
+                    <input class="checkmark" type="radio" name="radio">
+                </label>
+                <input type="text" class="claimText" placeholder="write here i it is not fixed..."> <!--if the user click on not fixed => write a claim to admin -->
+            </div>
+        </div>
+        
+
+    </body>
+</html>

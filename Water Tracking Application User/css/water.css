@@ -1,0 +1,268 @@
+.bg {
+    background-image: url(../images/Capture1.PNG);
+    background-repeat: no-repeat;
+}
+.position {
+    position: absolute;
+    right:460px ;
+    top: 20px;
+    width: 400px; 
+    height: 600px;
+}
+.logo {
+    height: 70px;
+    width: 120px;
+    margin: 130px 70px 50px 130px  ;
+}
+.inputs {
+    position: absolute;
+    right:50px;
+    left: 50px;
+    width:200px;
+    top: 250px;
+    height: 250px;
+    padding: 50px;
+}
+.textInput {
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: rgb(5, 104, 159) 1px solid;
+color: rgb(5, 104, 159);
+background-color: transparent;
+margin-bottom: 20px;
+height: 30px;
+}
+.textInput:hover {
+    border: 0px;
+    border-radius: 25px;
+    background-color:#DCDCDC;
+}
+.submitInput {
+    background-color: transparent ;
+    border: rgb(5, 104, 159) 2px solid ;
+    color: rgb(5, 104, 159);
+    width: 180px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+}
+.submitInput:hover {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    border-radius: 25px;
+}
+.link {
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.titles {
+    color: rgb(5, 104, 159);
+    text-align: center;
+    font-weight: bold;
+} 
+.border {
+    border: 1px solid rgb(5, 104, 159);
+    background-color:rgba(38, 115, 156, 0.404);
+
+}
+
+.nav {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 7px 7px lightblue;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    float: left;
+    width: 70px; 
+}
+header li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.logo-qr {
+    height: 70px;
+    width: 120px;  
+    margin: 50px 130px ;
+}
+
+.Qr {
+    position: absolute;
+    right:50px;
+    left: 50px;
+    width:200px;
+    top: 200px;
+    height: 180px;
+    padding: 50px;
+    background-color: transparent;
+    border : 1px solid rgb(5, 104, 159);
+    background-color: #DCDCDC ;
+}
+.scann {
+    width: 100px;
+    height: 50px;
+    margin-top: 300px;
+    margin-left: 140px;
+    background-color: rgb(5, 104, 159);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+.scann:hover {
+    box-shadow: 0px 7px 7px lightblue;
+}
+
+.adresse {
+    text-decoration: none;
+    color: rgb(5, 104, 159);
+    margin-top: -40px;
+    margin-right: 10px;
+    float: right;
+    width: 50px;
+}
+.titlePlace {
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.courbe {
+    border : 1px solid rgb(5, 104, 159);
+    margin-left: 70px;
+    height: 250px;
+    width: 275px;
+    background-image: url(../images/courbe.png);
+}
+.historyBtn {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    border:none ;
+    border-radius: 5px;
+    margin: 15px 140px;
+    padding: 7px 12px;
+}
+.historyBtn:hover {
+    background-color: rgba(20, 116, 167, 0.664);
+    box-shadow: 0px 7px 7px lightblue ;
+}
+.date {
+    width: 45px;
+    margin-left: 170px;
+}
+.recherche {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.textfield {
+    width: 100px;
+    height : 18px ;
+    margin-left: 70px;
+    margin-bottom: 10px;  
+    border: 2px solid rgb(5, 104, 159); 
+    background-color: white;
+    color: rgb(5, 104, 159);
+}
+.Search { 
+    background-color:rgb(5, 104, 159);
+    color: white;
+    position: absolute;
+    padding: 2.25px 5px;
+    border : 2px solid rgb(5, 104, 159) ; 
+}
+.Search:hover {
+    background-color: rgba(20, 116, 167, 0.664);
+    box-shadow: 0px 7px 7px rgba(104, 130, 139, 0.719);
+}
+.box {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(5, 104, 159);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    height: 40px;
+    margin-top: 50px;
+}
+.box:hover {
+    box-shadow: 0px 7px 7px rgba(104, 130, 139, 0.719);
+}
+.pos-left {
+    float: left;
+    width: 40px;
+    margin-left: 50px;
+}
+.pos-right {
+    float: right;
+    width: 40px ;
+    margin-right: 50px;
+}
+.add {
+    background-color: rgb(5, 104, 159);
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 30px;
+}
+.add:hover {
+    box-shadow: 7px 7px 7px rgba(20, 116, 167, 0.664);
+}
+.claim {
+    position: absolute;
+    right:50px;
+    left: 50px;
+    width:270px;
+    top: 100px;
+    height: 420px;
+}
+.textNotif {
+    color: rgb(60, 69, 75);
+    box-shadow: rgba(20, 116, 167, 0.664);
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+p {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(5, 104, 159);
+}
+.check {
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold;
+    color: rgb(5, 104, 159);
+    margin-left: 30px;   
+}
+.checkMargin {
+    margin-left: 100px ;
+    color: rgb(60, 69, 75);
+}
+.checkmark {
+    height: 20px;
+    width: 20px;
+  }
+.claimText {
+    background-color: rgba(228, 235, 238, 0.315);
+    height: 180px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+   margin-top: 30px;
+}
